@@ -1,0 +1,98 @@
+/* FFFF82 yellow 
+B5FAFF blue
+4BDD9E green
+FFB2D4 pink
+FFE4F3 blush-pink
+*/
+
+/*font-family: 'Pacifico', cursive;*/
+/*font-family: 'Open Sans', sans-serif;*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Pacifico');
+
+body{
+    background-color: #FFE4F3;
+}
+.header{
+    display: flex;
+    justify-content:space-between;
+    height: 100px;
+}
+.top{
+    background-color: white;
+    }
+.header img{
+    width:100px;
+}
+.header h1{
+    font-family: 'Pacifico', cursive;
+    font-size: xx-large;
+}
+h1{text-align: center;
+    color: #4BDD9E;
+}
+h2 {text-align: center;
+color: #4BDD9E
+}
+
+nav{font-family: 'Open Sans', sans-serif;
+background-color: white;
+}
+
+p{
+    font-family: 'Open Sans', sans-serif;
+}
+nav li,a{
+
+    list-style-type: none;
+    text-decoration: none;
+    color: #4BDD9E;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+.intropic img{
+    width: 100%;
+    border-radius: 8px;
+
+}
+.intropic{
+    margin:auto;
+    width: 50%;
+    display: inline-block;
+  margin-left: 25%;
+  padding-top: 10px;
+  text-align: left;
+
+    
+}
+.intro{
+    /*width: 50%;*/
+    /*margin:auto;*/
+     position: fixed;
+  width: 15%;
+  height:100%;
+  background-color: rgba(242, 242, 242, 0.5);
+}
+.about{
+    margin:auto;
+    width: 55%;
+}
+
+body {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+.footer {
+    text-align: right;
+}
+       ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+/*https://www.w3schools.com/css/tryit.asp?filename=trycss_image_text_top_left*/
